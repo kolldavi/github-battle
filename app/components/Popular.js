@@ -1,6 +1,5 @@
-var React = require('react');
-
-class Popular extends React.Component {
+import React from 'react';
+export default class Popular extends React.Component {
 	state = {
 		selectedLanguage: 'All'
 	};
@@ -28,5 +27,3 @@ class Popular extends React.Component {
 		);
 	}
 }
-
-module.exports = Popular;
